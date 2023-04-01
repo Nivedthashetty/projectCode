@@ -1,0 +1,43 @@
+
+.main_box{
+    display: flex;
+    .subbox1{
+      width: 40%;
+      padding: 20px;
+      h1{
+         color: blueviolet;
+      }
+      .customer{
+        font-size: 16px;
+        margin: 20px 0px 50px 0px;
+      }
+      p{
+        font-weight: 300;
+      }
+      
+    }
+    .subbox2{
+      width: 60%;
+      h3{
+        color: rgb(53, 50, 173);
+       
+      }
+      .submain {
+        border: 2px solid #bfa3a391;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px 0px 10px 0px;
+    }
+    }
+  }
+  @media (max-width:767px){
+    .main_box{
+      display: block;
+      .subbox1{
+        width: 100%;
+      }
+      .subbox2{
+        width: 100%;
+      }
+    }
+  }
